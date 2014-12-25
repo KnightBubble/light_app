@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>App:</b>
+  <%= @page_content.app_id %>
+</p>
+
+<p>
+  <b>Page:</b>
+  <%= @page_content.page_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_page_content_path(@page_content) %> |
+<%= link_to 'Back', page_contents_path %>

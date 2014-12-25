@@ -1,0 +1,60 @@
+﻿/*
+ *   author:      可乐加糖
+ *   email:       black.angel.liu@gmail.com
+ *   description: 管理后台通用样式表
+ */
+
+body,html{height: 100%;}
+.top-nav {
+  color:#fff;
+  padding: 5px 10px;
+  background-color: #448fb9;
+  h5{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.left-nav{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width:200px;
+  padding: 0;
+  background-color: #f2f2f2;
+  box-shadow: -1px 0 3px #cccccc inset;
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    height:40px;
+    line-height: 40px;
+    padding: 0 0 0 10px;
+    border-top: none;
+    border-bottom: 1px dashed #ccc;
+    a{
+      color:#999;
+      padding-left: 10px;
+    }
+  }
+}
+.nav-group-title{
+  color:#fff;
+  margin: 0;
+  display: block;
+  height:40px;
+  line-height: 40px;
+  color:#2b7dbc;
+}
+
+//右侧主内容展示面板
+.right-panel{
+  height: 100%;
+  padding-left: 210px;
+}
+
+//工具栏
+.tool-bar{
+  margin: 10px 0;
+}

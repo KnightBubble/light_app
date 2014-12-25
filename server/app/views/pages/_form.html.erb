@@ -1,0 +1,27 @@
+<!-- 面包屑导航 -->
+<ul class="breadcrumb">
+  <li><i class="icon-home"></i>&nbsp;&nbsp;<a href="#">管理平台</a> <span class="divider">/</span></li>
+  <li class="artive">应用管理</li>
+</ul>
+<!-- 面包屑导航结束 -->
+<div class="app-page">
+  <div class="tool-bar">
+    <%= link_to "创建", app_new_url, :class=> "btn btn-success" %>
+  </div>
+  <table class="table table-hover table-striped">
+    <tr class="info">
+      <th width="30%">应用名称</th>
+      <th width="40%">应用内容</th>
+      <th width="30%">操作</th>
+    </tr>
+    <tr>
+      <td>1111111</td>
+      <td>1111111</td>
+      <td>
+        <a href="#" class="btn btn-small">查看</a>
+        <a href="#" class="btn btn-small btn-primary">编辑</a>
+        <a href="#" class="btn btn-small btn-danger">删除</a>
+      </td>
+    </tr>
+  </table>
+</div>
